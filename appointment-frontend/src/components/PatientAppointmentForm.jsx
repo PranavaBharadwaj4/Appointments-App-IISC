@@ -3,6 +3,7 @@ import { useParams } from 'react-router';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
+import Footer from './Footer';
 
 const PatientAppointmentForm = () => {
     const { id } = useParams();
@@ -54,25 +55,51 @@ const PatientAppointmentForm = () => {
 
   return (
     <>
-    <h3>Doctor {doctorName}'s Appointment Slots</h3>
+    <div className="patient-form-container">
+      <div className="form-container">
+
+
     <form onSubmit={handleSubmit}>
+      <div className="brand">
+            {/* <img src="" alt="" /> */}    
+            <h3>Doctor {doctorName}'s Appointment Slots</h3>
+
+      </div>
+      <div>
+
       <label>Email</label>
       <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+      </div>
+
+      <div>
 
       <label>Full Name</label>
       <input type="name" value={name} onChange={(e) => setName(e.target.value)} required />
+      </div>
+
+      <div>
 
       <label>Phone</label>
       <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} required />
+      </div>
+
+      <div>
 
       <label>Date</label>
       <input type="date" value={date} onChange={(e) => setDate(e.target.value)} required />
+      </div>
+
+      <div>
 
       <label>Time</label>
       <input type="time" value={time} onChange={(e) => setTime(e.target.value)} required />
+      </div>
 
       <button type="submit">Book Appointment</button>
     </form>
+    </div>
+    </div>
+    <Footer />
     </>
   )
 }

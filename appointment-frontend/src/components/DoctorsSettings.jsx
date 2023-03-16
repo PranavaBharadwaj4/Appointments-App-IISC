@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 import {useState, useEffect } from 'react';
+import Footer from './Footer';
 
 function DoctorsSettings() {
   const [formData, setFormData] = useState({
@@ -68,9 +69,18 @@ useEffect(() => {
   };
 
   return (
-    <div>
-      <h2>Appointment Link Settings</h2>
+    <>
+    
+    <div className='doc-setting-container'>
+      <div className="form-container">
+      
+
       <form onSubmit={handleSubmit}>
+      <div className="brand">
+            {/* <img src="" alt="" /> */}    
+            <h3>Appointment Link Settings</h3>
+
+      </div>
         <div>
           <label htmlFor="activeDays">Active Days:</label>
           <input
@@ -81,7 +91,7 @@ useEffect(() => {
             onChange={(e) => setFormData({ ...formData, activeDays: e.target.value })}
           />
         </div>
-        <div>
+        {/* <div>
           <label htmlFor="timeSlots">Available Time Slots:</label>
           <select
             multiple
@@ -102,7 +112,7 @@ useEffect(() => {
             <option value="3:00 PM">3:00 PM</option>
             <option value="4:00 PM">4:00 PM</option>
           </select>
-        </div>
+        </div> */}
         <div>
           <label htmlFor="maxParticipants">Max Participants:</label>
           <input
@@ -133,14 +143,18 @@ useEffect(() => {
       </div>
         <button type="submit">Save Settings</button>
       </form>
+
       <div>
       {go!==0 && (
-        <button onClick={handleCopyClick}>
+        <button className='copy-btn' onClick={handleCopyClick}>
           Copy Link
         </button>
       )}
     </div>
+      </div>
     </div>
+    <Footer />
+    </>
   );
 }
 

@@ -1,0 +1,51 @@
+//variables
+
+$primary-color: blue;
+$accent-1-color: cyan;
+$accent-2-color: magenta;
+// White Color
+$white-color: #ffffff;
+// Heading Color
+$heading-color: #000000;
+// Text Color
+$text-color: #000000;
+// Dark Color
+$dark-color: #000000;
+// Default Background
+$bg-default: #A6C9BE;
+// Gray Background
+$bg-gray: #f5f7f9;
+// Border Color
+$border-color: #ebebeb;
+// Hover Color
+$hover-color: #575366;
+
+$footer-color:#161215;
+
+
+
+// Poppins Font
+$font-poppins: 'Poppins', sans-serif;
+
+// Ubuntu Font
+$font-ubuntu: 'Ubuntu', sans-serif;
+
+
+
+
+
+
+
+
+//responsiveness
+$breakpoint-xl: 'only screen and (min-width:1200px)';
+
+$breakpoint-lg: 'only screen and (min-width:992px) and (max-width:1199px)';
+
+$breakpoint-md: 'only screen and (min-width:768px) and (max-width:991px)';
+
+$breakpoint-sm: 'only screen and (min-width:576px) and (max-width:767px)';
+
+$breakpoint-xs: 'only screen and (max-width:767px)';
+
+$breakpoint-xs-landscape: 'only screen and (min-width:480px) and (max-width:767px)';

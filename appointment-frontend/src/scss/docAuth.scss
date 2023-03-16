@@ -1,0 +1,38 @@
+.doc-auth-container{
+    height: 100vh;
+  width: 100vw;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    >h1{
+        background: linear-gradient(
+        to right,
+        rgba(161, 140, 209, 1),
+        rgba(251, 194, 235, 1)
+    ) !important;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 2px 2px 0.2px #000000;
+    }
+    
+    >h2{
+        background: linear-gradient(
+        to right,
+        rgba(161, 140, 209, 1),
+        rgba(251, 194, 235, 1)
+    ) !important;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 2px 2px 0.2px #000000;
+    }
+
+}

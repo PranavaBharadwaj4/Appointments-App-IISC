@@ -1,0 +1,119 @@
+.patient-form-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.patient-form-container > h1 {
+  background: linear-gradient(to right, rgb(161, 140, 209), rgb(251, 194, 235)) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  text-shadow: 2px 2px 0.2px #000000;
+}
+.patient-form-container > h2 {
+  background: linear-gradient(to right, rgb(161, 140, 209), rgb(251, 194, 235)) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  text-shadow: 2px 2px 0.2px #000000;
+}
+.patient-form-container .form-container {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.patient-form-container .form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 7rem;
+  background: linear-gradient(to right, rgba(189, 175, 223, 0.5), rgba(251, 194, 235, 0.5));
+  border-radius: 2rem;
+  box-shadow: 9px 9px plum;
+}
+.patient-form-container .form-container form .brand {
+  align-items: center;
+  justify-items: center;
+  gap: 0.1rem;
+}
+.patient-form-container .form-container form .brand h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgb(161, 140, 209), rgb(251, 194, 235)) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  text-shadow: 2px 2px 0.2px #000000;
+}
+.patient-form-container .form-container form input {
+  background: white;
+  padding: 1rem;
+  border: none;
+  border: 0.1rem solid black;
+  border-radius: 0.4rem;
+  width: 100%;
+  color: black;
+  font-size: medium;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  box-shadow: 4px 4px plum;
+}
+.patient-form-container .form-container form input:focus {
+  border: 0.2rem solid plum;
+  outline: none;
+  color: black;
+  background-color: whitesmoke;
+  box-shadow: none;
+}
+.patient-form-container .form-container form button {
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, rgba(189, 175, 223, 0.5), rgb(251, 194, 235));
+  box-shadow: 4px 4px 4px rgb(168, 237, 234);
+  padding: 1rem 2rem;
+  background-color: #575366;
+  color: rgb(168, 237, 234);
+  border-radius: 0.4rem;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.patient-form-container .form-container form button:hover, .patient-form-container .form-container form button:focus {
+  background-color: linear-gradient(to right, rgb(161, 140, 209), rgb(251, 194, 235));
+  color: rgb(168, 237, 234);
+  background-clip: text;
+  text-shadow: 2px 2px 0.2px plum;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: black;
+  box-shadow: 1px 2px plum;
+}
+.patient-form-container .form-container form span {
+  color: white;
+  text-transform: uppercase;
+}
+.patient-form-container .form-container form span a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+.patient-form-container .form-container form span a:hover {
+  color: plum;
+}/*# sourceMappingURL=patientForm.css.map */

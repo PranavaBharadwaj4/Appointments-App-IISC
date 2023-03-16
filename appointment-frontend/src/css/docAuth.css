@@ -1,0 +1,26 @@
+.doc-auth-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.doc-auth-container > h1 {
+  background: linear-gradient(to right, rgb(161, 140, 209), rgb(251, 194, 235)) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  text-shadow: 2px 2px 0.2px #000000;
+}
+.doc-auth-container > h2 {
+  background: linear-gradient(to right, rgb(161, 140, 209), rgb(251, 194, 235)) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  text-shadow: 2px 2px 0.2px #000000;
+}/*# sourceMappingURL=docAuth.css.map */
